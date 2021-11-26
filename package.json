@@ -1,0 +1,26 @@
+{
+  "name": "Teste-Via",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:open": "npx cypress open",
+    "cy:report": "cypress run --record --key 15f37525-50fc-4859-ae2d-892cf522a646"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patym/Teste-Via.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patym/Teste-Via/issues"
+  },
+  "homepage": "https://github.com/patym/Teste-Via#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
+}
